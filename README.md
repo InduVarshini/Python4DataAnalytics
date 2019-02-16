@@ -23,12 +23,12 @@ It is an interpreted language rather than compiled language – hence might take
 Weak in Mobile Computing: Python has made its presence on many desktop and server platforms, but it is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle.
 
 ## Languages for Data analysis
-Python
-Java
-Matlab
-R
-Julia
-Scala etc.
+1. Python
+2. Java
+3. Matlab
+4. R
+5. Julia
+6. Scala etc.
 
 ## How to Install Python
 Download python from https://www.python.org/downloads/ and install.
