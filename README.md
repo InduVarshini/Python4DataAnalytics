@@ -30,7 +30,7 @@ R
 Julia
 Scala etc.
 
-How to Install Python
+## How to Install Python
 Download python from https://www.python.org/downloads/ and install.
 Pip installer will come with python installation. It will be available in Python installation folder/scripts.
 Navigate to that path in the command prompt and execute the command pip install numpy
@@ -51,7 +51,7 @@ https://colab.research.google.com/
 https://paiza.cloud/en/jupyter-notebook-online
 https://jupyter.org/try
 
-Python Prerequisites before jumping into Data Analytics
+### Python Prerequisites before jumping into Data Analytics
 
 List
 Tuple
@@ -65,7 +65,7 @@ Importing and plotting data
 
 # Python Libraries
 
-NUMPY
+## NUMPY
 
 NumPy is the fundamental package for scientific computing with Python:
 a powerful N-dimensional array object
@@ -75,7 +75,7 @@ useful linear algebra, Fourier transform, and random number capabilities
 NumPy enriches the programming language Python with powerful data structures, implementing multi-dimensional arrays and matrices. These data structures guarantee efficient calculations with matrices and arrays. The implementation is even aiming at huge matrices and arrays, better know under the heading of "big data". Besides that the module supplies a large library of high-level mathematical functions to operate on these matrices and arrays.
 
 
-Numpy containers:
+### Numpy containers:
 
 Lists
 Tuples
@@ -90,7 +90,7 @@ Linear Algebra
 Fourier transforms
 
 
-PANDAS
+## PANDAS
 
 pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with structured (tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.
 
@@ -101,6 +101,7 @@ Arbitrary matrix data (homogeneously typed or heterogeneous) with row and column
 Any other form of observational / statistical data sets. The data actually need not be labeled at all to be placed into a pandas data structure
 
 The two primary data structures of pandas, Series (1-dimensional) and DataFrame (2-dimensional), handle the vast majority of typical use cases in finance, statistics, social science, and many areas of engineering. 
+
 Here are just a few of the things that pandas does well:
 Easy handling of missing data (represented as NaN) in floating point as well as non-floating point data
 Size mutability: columns can be inserted and deleted from DataFrame and higher dimensional objects
@@ -115,54 +116,43 @@ Robust IO tools for loading data from flat files (CSV and delimited), Excel file
 Time series-specific functionality: date range generation and frequency conversion, moving window statistics, moving window linear regressions, date shifting and lagging, etc.
 
 
-
-
-SCIPY
+## SCIPY
 SciPy (Scientific Python) is often mentioned in the same breath with NumPy. SciPy needs Numpy, as it is based on the data structures of Numpy and furthermore its basic creation and manipulation functions. It extends the capabilities of NumPy with further useful functions for minimization, regression, Fourier-transformation and many others.
 SciPy uses NumPy arrays as the basic data structure, and comes with modules for various commonly used tasks in scientific programming, including linear algebra, integration (calculus), ordinary differential equation solving, and signal processing.
 
 
-MATPLOTLIB
+## MATPLOTLIB
 
 Matplotlib is a python library used to create 2D graphs and plots by using python scripts. It has a module named pyplot which makes things easy for plotting by providing feature to control line styles, font properties, formatting axes etc. It supports a very wide variety of graphs and plots namely - histogram, bar charts, power spectra, error charts etc. It is used along with NumPy to provide an environment that is an effective open source alternative for MatLab.
 
-SCIKIT-LEARN
+## SCIKIT-LEARN
 Scikit-learn is a free machine learning library for Python. It features various algorithms like support vector machine, random forests, and k-neighbours, and it also supports Python numerical and scientific libraries like NumPy and SciPy.
 
 
+## PANDAS
 
-
-
-
-PANDAS
-
-Series 
+### Series 
 Pandas Series is a one-dimensional labeled array capable of holding data of any type (integer, string, float, python objects, etc.). The axis labels are collectively called index. Pandas Series is nothing but a column in an excel sheet.
 Labels need not be unique but must be a hashable type. The object supports both integer and label-based indexing and provides a host of methods for performing operations involving the index.
 pandas.Series( data, index, dtype, copy)
 
-Data Frames
+### Data Frames
 A Data frame is a two-dimensional data structure, i.e., data is aligned in a tabular fashion in rows and columns.
 This is something like a SQL table with rows and columns or you can imagine like a excel spreadsheet.
 
-
-Features:
-Potentially columns are of different types
-Size – Mutable
-Labeled axes (rows and columns)
-Can Perform Arithmetic operations on rows and columns
 A pandas DataFrame can be created using various inputs like −
 Lists
 dict
 Series
 Numpy ndarrays
 Another DataFrame
-Building Machine learning Models
+
+# Building Machine learning Models
 
 (Refer to the Jupyter Notebooks for sample implementations)
 
-Conclusion
-In this workshop we have discussed the Python Basics and also the importance of different python packages like Numpy, Scipy, Matplotlib and Pandas. We understood that Numpy and Scipy will allow us to do some complex mathematical functions on the data including matrices. Matplotlib is a plotting tool to visualize the data and results. Pandas package will allow us to play with data and most importantly used for preprocessing the data i.e. making the data ready to apply it on a machine learning algorithm. Scikit-learn provides whole set of machine learning models that we can use readily on the preprocessed datasets. All these packages comes along with the installation of Anaconda in a single shot. As python is open-source and supports vast varieties of packages like the above mentioned ones, it is gaining a lot of support in industry as well as academecia. 
+## Conclusion
+In this tutorial we have discussed the Python Basics and also the importance of different python packages like Numpy, Scipy, Matplotlib and Pandas. We understood that Numpy and Scipy will allow us to do some complex mathematical functions on the data including matrices. Matplotlib is a plotting tool to visualize the data and results. Pandas package will allow us to play with data and most importantly used for preprocessing the data i.e. making the data ready to apply it on a machine learning algorithm. Scikit-learn provides whole set of machine learning models that we can use readily on the preprocessed datasets. All these packages comes along with the installation of Anaconda in a single shot. As python is open-source and supports vast varieties of packages like the above mentioned ones, it is gaining a lot of support in industry as well as academecia. 
 
 
 Hope you have enjoyed and learned something from this session. Thank you…!
