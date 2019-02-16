@@ -11,32 +11,6 @@ datasets.
 # Python for Data Analytics
 
 
-Contents:
-Python for Data analysis
-Why Python for Data analysis
-Other languages for data analysis
-How to install Python?
-Python Notebooks
-Python concepts needed before jumping to data analysis
-Python Libraries for Data analysis
-Numpy
-Pandas
-Scipy
-Matplotlib
-scikit-learn
-Understanding Pandas for Dataset loading
-Series
-Data frames
-Building Machine Learning Models
-Linear Regression
-Logistic Regression
-K-Means clustering
-Decision Trees
-Conclusion
-
-
-
-Python for Data Analysis
 Why Python for Data Analysis
 Python has gathered a lot of interest recently as a choice of language for data and statistical analysis. Below are some reasons which go in favour of learning Python:
 Open Source 
@@ -47,7 +21,8 @@ Python Has Amazing Libraries
 Needless to say, it has some drawbacks too:
 It is an interpreted language rather than compiled language – hence might take up more CPU time.
 Weak in Mobile Computing: Python has made its presence on many desktop and server platforms, but it is seen as a weak language for mobile computing. This is the reason very few mobile applications are built in it like Carbonnelle.
-Languages for Data analysis
+
+## Languages for Data analysis
 Python
 Java
 Matlab
@@ -64,10 +39,12 @@ To install using a single command: python -m pip install --user numpy scipy matp
 To install on ubuntu sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 Installing using Anaconda (Best installation method - single shot)
+
 https://www.anaconda.com/distribution/
 
 
-Python notebooks
+## Python notebooks
+
 https://notebooks.azure.com/
 https://cocalc.com/
 https://colab.research.google.com/
@@ -86,26 +63,37 @@ Working with matrices
 Statistical functions
 Importing and plotting data
 
-Python Libraries
+# Python Libraries
+
 NUMPY
+
 NumPy is the fundamental package for scientific computing with Python:
 a powerful N-dimensional array object
 sophisticated (broadcasting) functions
 tools for integrating C/C++ and Fortran code
 useful linear algebra, Fourier transform, and random number capabilities
 NumPy enriches the programming language Python with powerful data structures, implementing multi-dimensional arrays and matrices. These data structures guarantee efficient calculations with matrices and arrays. The implementation is even aiming at huge matrices and arrays, better know under the heading of "big data". Besides that the module supplies a large library of high-level mathematical functions to operate on these matrices and arrays.
-Numpy containers
+
+
+Numpy containers:
+
 Lists
 Tuples
 Sets
 Dictionaries
+
 Other Features:
+
 Arithmetic operations on matrices
 Matrix Library
 Linear Algebra
 Fourier transforms
+
+
 PANDAS
+
 pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with structured (tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.
+
 Pandas is well suited for many different kinds of data:
 Tabular data with heterogeneously-typed columns, as in an SQL table or Excel spreadsheet
 Ordered and unordered (not necessarily fixed-frequency) time series data.
